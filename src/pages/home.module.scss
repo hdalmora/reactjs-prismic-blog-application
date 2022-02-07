@@ -1,1 +1,55 @@
-// TODO
+.container {
+  main {
+    align-items: flex-start;
+
+    section:first-child {
+      margin-bottom: 65px;
+    }
+
+    section:not(:first-child) {
+      a {
+        display: flex;
+        flex-direction: column;
+
+        margin-bottom: 48px;
+      }
+    }
+  }
+
+  button {
+    font-size: 18px;
+    color: var(--highlight);
+    font-weight: 600;
+  }
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: var(--heading);
+
+  margin-bottom: 8px;
+}
+
+.subTitle {
+  font-size: 18px;
+  color: var(--body);
+
+  margin-bottom: 24px;
+}
+
+.informations {
+  display: flex;
+  align-items: flex-start;
+
+  font-size: 14px;
+  color: var(--info);
+
+  svg {
+    margin-right: 8px;
+  }
+
+  time {
+    margin-right: 24px;
+  }
+}
